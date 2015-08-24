@@ -1,0 +1,6 @@
+C:\Users\Glaucia\Documents\Visual Studio 2013\Projects\Cursos - PluralSight\Building HTML5 and JavaScript Apps with MVVM and Knockout\Grid_Dinamico_ko\Grid_Dinamico_ko\bin\Grid_Dinamico_ko.dll.config
+C:\Users\Glaucia\Documents\Visual Studio 2013\Projects\Cursos - PluralSight\Building HTML5 and JavaScript Apps with MVVM and Knockout\Grid_Dinamico_ko\Grid_Dinamico_ko\bin\Grid_Dinamico_ko.dll
+C:\Users\Glaucia\Documents\Visual Studio 2013\Projects\Cursos - PluralSight\Building HTML5 and JavaScript Apps with MVVM and Knockout\Grid_Dinamico_ko\Grid_Dinamico_ko\bin\Grid_Dinamico_ko.pdb
+C:\Users\Glaucia\Documents\Visual Studio 2013\Projects\Cursos - PluralSight\Building HTML5 and JavaScript Apps with MVVM and Knockout\Grid_Dinamico_ko\Grid_Dinamico_ko\obj\Debug\Grid_Dinamico_ko.csprojResolveAssemblyReference.cache
+C:\Users\Glaucia\Documents\Visual Studio 2013\Projects\Cursos - PluralSight\Building HTML5 and JavaScript Apps with MVVM and Knockout\Grid_Dinamico_ko\Grid_Dinamico_ko\obj\Debug\Grid_Dinamico_ko.dll
+C:\Users\Glaucia\Documents\Visual Studio 2013\Projects\Cursos - PluralSight\Building HTML5 and JavaScript Apps with MVVM and Knockout\Grid_Dinamico_ko\Grid_Dinamico_ko\obj\Debug\Grid_Dinamico_ko.pdb

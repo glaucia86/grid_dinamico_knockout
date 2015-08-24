@@ -1,0 +1,51 @@
+﻿<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <title>Grid Dinâmico com KnockoutJs e Bootstrap</title>
+
+    <!--A ordem dos scripts devem ser seguidas extritamentes da maneira como estão: primeiro: JQuery e depois o Knockout-->
+    <script src="Scripts/jquery-2.1.4.min.js"></script>
+    <script src="Scripts/knockout-3.3.0.js"></script>  
+    <script src="Scripts/grid.js" type="text/javascript"></script>
+
+    <!--Bibliotecas do Bootstrap-->
+    <script src="Scripts/bootstrap.min.js"></script>
+    <link href="Content/bootstrap-theme.min.css" rel="stylesheet" />
+    <link href="Content/bootstrap.min.css" rel="stylesheet" />
+</head>
+<body>
+    <form>
+        <div class="jumbotron">
+            <h1>Grid Dinâmico - KnockoutJs</h1>
+        </div>
+        <div class="container">
+            <div class="span10 offset1">
+                <div class="row">
+                    <p>
+                        Você já escolheu: <span data-bind="text: presentes().length">&nbsp;</span> presente(s)
+                    </p>
+                    <table data-bind="visible: presentes().length > 0" class="table table-condensed">
+                        <thead>
+                            <tr>
+                                <th>Nome do Presente</th>
+                                <th>Preço</th>
+                            </tr>
+                        </thead>
+                        <tbody data-bind="foreach: presentes">
+                            <tr>
+                                <td><input data-bind="value: nome, uniqueName: true" class=" required form-control" /></td>
+                                <td><input data-bind="value: preco, uniqueName: true" class=" required: number form-control" /></td>
+                                <td><button data-bind="click: $root.removerPresente" class="btn btn-danger">Deletar</button></td>
+                            </tr>
+                        </tbody>
+                    </table>
+                    <br/>
+
+                    <button data-bind="click: adicionarPresente" class="btn btn-success">Adicionar</button>
+                    <button data-bind="enable: presentes().lentgh > 0" type="submit" class="btn btn-info">Enviar</button>
+                </div>
+            </div>
+        </div>
+    </form>
+</body>
+</html>
